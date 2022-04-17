@@ -46,19 +46,15 @@ function decrement(event) {
 }
 // fonction wishlist
 function wishlist(event) {
-  
-  var btnlike = event.target;
-  var bool = false ;
-   bool = !bool;
-   console.log(bool)
-   
-  if(bool == true){
-      btnlike.style.color = "red";
+
+    var btnlike = event.target;
+    if(btnlike.style.color==="gray"){
+        btnlike.style.color = "red";
+    }
+    else {
+        btnlike.style.color = "gray";
+    } 
   }
-  else {
-      btnlike.style.color = "gray";
-  } 
-}
 // fonction delete
 function deleted(event) {
   var btndelete = event.target;

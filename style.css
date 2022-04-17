@@ -6,6 +6,9 @@ body {
   background-attachment: fixed;
   background-position: 0px -200px;
 }
+button.like i{
+ color: gray;
+}
 h1 {
   font-family: Saira Condensed;
   font-size: 70px;
